@@ -5,6 +5,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { FormsModule } from '@angular/forms'; // ✅ Import FormsModule
+
 import { AddressBookComponent } from './components/address-book/address-book.component';
 
 @NgModule({
@@ -12,6 +14,7 @@ import { AddressBookComponent } from './components/address-book/address-book.com
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     MatTableModule,
     MatButtonModule,
     MatIconModule
